@@ -1,0 +1,55 @@
+body {
+    background-color:#7FFFD4;
+}
+
+.ingresoUsuario {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 30%;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    box-shadow: -4px -5px 13px 0px rgba(0,0,0,0.75);
+}
+
+.formularioPadre {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+
+.camposForm {
+    width: 300px;
+    height: 50px;
+    border-radius: 3%;
+}
+
+.botonEnviar {
+    width: 308px;
+    height: 50px;
+    border-radius: 3%;
+    background-color: #3b5998;
+    color: white;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.botonRestaurar {
+    width: 50%;
+    margin-left: 75px;
+   
+}
+
+img {
+    margin-top: 10px;
+}
